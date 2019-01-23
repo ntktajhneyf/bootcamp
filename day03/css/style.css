@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    max-width: 900px;
+    /* border: 1px solid red;  */
+    color: cadetblue
+}
+header {
+    
+    margin: auto;
+}
+
+.menu {
+    margin: auto;
+    max-width: 600px;
+}
+
+.menu li {
+    max-width: 60px;
+    margin: 10px 10px 10px 90px;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(147, 173, 173);
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+.box {
+    margin: 10px 0 10px 60px;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  
+}
+footer {
+    max-width: 800px;
+    margin: auto;
+}
+
+.btn {
+    width: 70px;
+    line-height: 30px;
+    margin: auto;
+}
+
+
+.btnTest {
+    width: 70px;
+    height: 30px;
+    border: 1px solid green;
+    margin: auto;
+}
