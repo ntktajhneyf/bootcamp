@@ -1,0 +1,80 @@
+/* font-family: 'Bangers', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  background-color: rgb(255, 253, 253);
+  padding: 10px;
+  color: grey;
+  text-indent: 10px;
+  }
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+}
+
+.oldscull {
+  background-image: url(../img/bike.jpg);
+  
+}
+
+.bmwcustom {
+  background-image: url(../img/bmw-brand-luxury-104842.jpg);
+}
+
+.bmw1100 {
+  background-image: url(../img/bike-bmw-bmw-k1100-1191109.jpg);
+ 
+}
+
+.oldbike {
+   font-family: 'Bangers', cursive;
+   padding-bottom: 10px;
+}
+
+.custom {
+  font-family: 'Kaushan Script', cursive;
+  padding-bottom: 10px;
+
+}
+
+.newbike {
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-bottom: 10px;
+
+}
+
+span {
+  font-size: 30px;
+}
+.one {
+  color: red;
+}
+
+.two {
+  color: green;
+}
+
+.three {
+  color: blueviolet;
+}
+h2 {
+  color: violet;x`
+}
