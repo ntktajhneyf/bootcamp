@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 2px solid green; */
+
+font-family: 'Roboto', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+}
+
+.wrapper {
+  margin: auto;
+  padding: 20px;
+  width: 1200px;
+  
+}
+
+.header {
+  width: 1100px;
+  margin: 0 auto 70px;
+  height: 30px;
+}
+
+.logo
+{
+  float: left;
+  width: 30%;
+  height: 30px;
+  font-size: 25px;
+  vertical-align: top;
+}
+
+.letter {
+  font-weight: bold;
+  color: rgba(26, 188, 156, 255);
+}
+
+.menu{
+  float: right;
+  width: 50%;
+  height: 25px;
+  margin: 0;
+}
+
+.menu::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+li {
+  list-style: none;
+font-size: 14px;
+font-weight: 600;  
+margin-right: 30px;
+ margin-top: 5px;
+
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: rgba(26, 188, 156, 255);
+}
+
+.last {
+  margin: 0;
+}
+
+h2{
+font-family: Roboto;
+font-size: 42px;
+color: rgba(81, 81, 81, 255);
+text-align: center;
+font-weight: bold;
+margin-bottom: 30px;
+margin: 50px;
+}
+
+h2:after {
+  margin: 10px auto;
+display: block;
+width: 160px;
+height: 6px;
+background-color: aqua;
+content: "";
+
+
+}
+
+.tovar1 {
+  width: 250px;
+  height: 320px;
+  position: relative;
+  margin-bottom: 30px;
+  background-color: #e8effc;
+
+}
+.pidFoto {
+  background-color: #323232;
+  width: 100%;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  font-weight: 600;
+  color:white;
+  padding-left: 20px;
+}
+
+.price {
+  width: 50px;
+  line-height: 50px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-weight: 600;
+  color:white;
+}
+
+.tovaru {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.statti {
+  display: flex;
+  justify-content: space-between
+}
+
+.stattia  {
+  width: 30%;
+  height: 320px;
+  position: relative;
+  margin-bottom: 30px;
+
+}
+
+.pidStat {
+width: 100%;
+font-family: OpenSans;
+font-size: 10pt;
+color: rgba(85, 82, 82, 255);
+text-align: left;
+padding-right: 50px;
+}
+.top {
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+.top:after {
+  display: block;
+  width: 100px;
+  background-color: aqua;
+  height: 2px;
+  content: "";
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.foto2 {
+  margin-bottom: 10px;
+
+}
+
+
+button {
+  background-color: aqua;
+  width: 130px;
+  height: 40px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 6px;
+  
+}
+
+
+.foto1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: #e8effc;
+ 
+  
+}
+
+.pidFoto:hover {
+  background-color: aqua;
+}
+

@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
+  
+
+}
+
+.one {
+  margin: auto;
+  width: 100%x;
+  background-image: linear-gradient(to right, #31207e, #222a9748), url(../img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 15px;
+}
+
+.wrapper {
+  max-width: 920px;
+  margin: auto;
+  height: 100%;
+}
+
+.logo {
+  max-width: 150px;
+  float: left;
+ line-height: 50px; 
+ background-color: color: rgba(0, 224, 208, 255);
+
+}
+
+
+
+.logo::after {
+  font-family: 'Roboto', sans-serif;
+  content: "tajam";
+  font-size: 30px;
+  color: rgba(0, 224, 208, 255);
+
+  margin: auto;
+  vertical-align: top;
+  font-weight: lighter;
+  
+ 
+}
+
+.menu {
+  font-size: 12px;
+  font-weight: 900;
+  max-width: 530px;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  }
+
+  a:hover {
+    color: rgba(0, 224, 208, 255);
+  }
+
+.header {
+    height: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+  font-size: 38px;
+}
+
+h2.proch:after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 224, 208, 255);
+  width: 70px;
+  height: 2px;
+  margin: 20PX auto;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  margin: 3px;
+  
+}
+
+.learn {
+  margin: 50px auto 120px;
+  width: 100px;
+  line-height: 30px;
+  border: 2px solid rgba(0, 224, 208, 255);
+  border-radius: 3px;
+  text-align: center;
+  color: rgba(0, 224, 208, 255);
+}
+
+.more {
+  color: rgba(0, 224, 208, 255);
+  font-family: Roboto;
+  font-weight: 550;
+  font-size: 13px;
+}
+
+.colo {
+  margin: 0 auto 20px;
+  max-width: 60px;
+
+}
+
+.two {
+
+  padding: 50px;
+}
+
+.wraptwo {
+  margin: auto;
+  max-width: 920px;
+
+}
+
+.image {
+  display: inline-block;
+  margin-left: 30px;
+ 
+}
+.texttwo {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 120px;
+ }
+
+ h3 {
+  color: rgba(65, 61, 75, 255);
+ 
+ }
+
+ p.twot {
+   color: rgba(65, 61, 75, 255);
+   font-family: 'Roboto', sans-serif;
+   font-size: 11pt;
+   font-weight: 200;
+   margin: 3px;
+   text-align: left;
+ } 
+
+ .learntwo {
+  margin-top: 20px; 
+  width: 100px;
+  line-height: 30px;
+  border: 2px solid rgba(0, 224, 208, 255);
+  border-radius: 3px;
+  text-align: center;
+  color: rgba(0, 224, 208, 255);
+ }
+
+
+ .three {
+
+  margin: auto;
+  width: 100%x;
+  background-image: linear-gradient(to right, #31207e, #222a9748), url(../img/fonthree.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+
+ }
+
+ .wrapthree
+ {
+  max-width: 920px;
+  margin: auto;
+  padding: 50px;
+  }
+
+
+ video {
+   max-width: 100%;
+   margin: auto;
+   height: 500px;
+ }
+
+.four{
+  padding: 50px;
+}
+
+
+.wrapfour {
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+ .exp {
+  color: rgba(65, 61, 75, 255);
+  text-align: center;
+ }
+ 
+ .fourtext {
+  color: rgba(47, 45, 53, 255);
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 550;
+ }
+
+ p.fourtext:after {
+  content: "";
+  display: block;
+  background-color: #c6c4c9;
+  width: 70px;
+  height: 2px;
+  margin: 20PX auto;
+}
+
+h3.tv {
+  font-family: Roboto;
+  margin: 20px auto 20px;
+  font-size: 12pt;
+color: rgba(65, 61, 75, 255);
+text-align: center;
+}
+
+p.tv {
+  color: rgba(47, 45, 53, 255);
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.boxu
+{
+  margin: auto;
+  max-width: 1000px;
+  
+}
+
+.boxer1 {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  padding: 20px;
+  border-right: 1px solid #222a9748;
+  border-bottom: 1px solid #222a9748;
+  margin: -2px;
+}
+
+.boxer2 {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  padding: 20px;
+  border-bottom: 1px solid #222a9748;
+  margin: -2px;
+
+}
+
+.boxer3 {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  padding: 20px;
+  border-left: 1px solid #222a9748;
+  border-bottom: 1px solid #222a9748;
+  margin: -2px;
+
+}
+
+.boxer4 {
+  text-align: center;
+  width: 32%;
+    display: inline-block;
+  padding: 20px;
+  border-right: 1px solid #222a9748;
+  margin: -2px;
+
+}
+
+.boxer5 {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  padding: 20px;
+  margin: -2px;
+
+}
+
+.boxer6 {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+  border-left: 1px solid #222a9748;
+
+  padding: 20px;
+  margin: -2px;
+
+}
+
+
+.five {
+
+    background-image: linear-gradient(#31207e, #222a9748), url(../img/fonfive.png);
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+
+    height: 500px;
+}
+
+.wrapfive {
+  max-width: 920px;
+  margin:auto;
+  padding: 50px;
+ 
+}
+
+.textfive h2 {
+
+margin: 0;
+padding: 0;
+font-size: 20px;
+
+}
+
+
+.textfive h3:after {
+  content: "";
+  display: block;
+  background-color: #c6c4c9;
+  width: 70px;
+  height: 2px;
+  margin: 20PX auto;
+}
+
+.textfive {
+}
+
+.textfive h3 {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.blockOne {
+  width: 20%;
+  height: 230px;
+}
+
+.blocktop {
+
+  width: 100%;
+  height: 70%;
+  background-color: white;
+}
+.blockbottom h3 {
+
+  text-align: center;
+  color: white;
+  font-size: 14pt;
+}
+
+.blockbottom {
+  padding-top: 10px;
+}
+.blockbottom p{
+
+  text-align: center;
+  color: rgba(250, 250, 250, 255);
+
+  font-size: 13pt;
+ 
+}

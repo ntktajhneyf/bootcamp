@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+
+}
+
+.wrapOne {
+  width: 100%;
+  background-image: url(../img/Single\ slide.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  
+
+
+}
+
+.topOne {
+
+  width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 30px 0 300px;
+  flex-wrap: wrap;
+
+ 
+}
+
+.blockLeft {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+  
+}
+
+
+.blockCenter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+.blockRight {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+li {
+  list-style: none; 
+  margin-right: 20px;
+}
+a {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700px;
+}
+
+li:hover {
+  border-bottom: 2px solid grey;
+}
+
+
+.two{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.twoLeft {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-image: url(../img/img\ studio\ bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 170px 0;
+
+
+}
+
+.about {
+
+  border:  8px solid black;
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+.twoRight {
+  justify-content: center;
+  width: 50%;
+  display: flex;
+  background-color: #f2efe5;
+  padding: 70px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 600;
+
+}
+
+.text1 {
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.text2 {
+  
+  padding: 0 40px;
+  
+} 
+
+
+.three {
+width: 100%;
+overflow: hidden;
+}
+.wrapThree {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.blokFoto {
+  width: 16.6%;
+  height: auto;
+  display: flex;
+
+
+
+
+
+}
