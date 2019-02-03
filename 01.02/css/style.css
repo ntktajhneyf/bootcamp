@@ -1,0 +1,898 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  /* outline: 1px solid green; */
+
+
+}
+
+section {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.one {
+  padding: 10px 0;
+  align-items: center;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.tilo {
+  width: 100%;
+  background-color: #546279;
+  padding: 40px 0;
+}
+
+.content {
+  background-color: #222c40;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.artica {
+  /* display: flex; */
+  border-bottom: 1px solid white;
+  position: relative;
+  padding: 30px;
+  margin-bottom: 20px;
+
+}
+
+
+
+.kolo2 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -21px;  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kolo {
+  width: 28px;
+  height: 28px;
+  border: 4px solid #222c40;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -29px;  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222c40;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  color: white;
+  border: 1px solid white;
+  background-color: #222c40;
+  padding: 10px 20px;
+}
+
+
+
+.topTwo {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 12px;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+.poloska {
+  width: 50%;
+  height: 1px;
+  background-color: #7f90a5;
+  position: relative;
+  margin-bottom: 20px;
+
+
+}
+
+
+.kolo4 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #222c40;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -21px;  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kolo3 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -29px;  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.two p{
+  color: rgba(127, 144, 165, 255);
+
+}
+
+.leftTwo {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-around;
+
+
+}
+
+.block {
+  width: 45%;
+  text-align: center;
+  color: rgba(127, 144, 165, 255);
+
+}
+
+.block img {
+  margin-bottom: 20px;
+}
+
+
+.rightTwo {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-around;
+
+
+}
+
+.three {
+  background-color: #1d263a;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.three h3 {
+  font-weight: 300;
+  color: white;
+}
+
+
+
+
+
+
+.topFour{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+
+}
+
+
+
+.four p{
+  color: rgba(127, 144, 165, 255);
+
+}
+
+.fourCenter {
+  width: 100%;
+}
+
+.leftFour {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+
+
+}
+
+.bloc {
+  width: 48%;
+
+}
+
+.bloc img {
+  margin-bottom: 20px;
+}
+
+
+.bloc {
+  padding: 20px;
+  height: 120px;
+  text-align: center;
+  background-color:#546278;
+  color: white;
+
+}
+
+.bloc p {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+
+  
+
+}
+
+.bloc h3{
+  margin: 0;
+  color: white;
+  font-weight: 300;
+
+  
+
+}
+
+
+}
+
+.bloc:hover {
+  background-color: #222c40;
+}
+
+.rightFour {
+  
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+
+
+}
+
+li {
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #3d506f;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.fourUl{
+  display: flex;
+  justify-content: space-between;
+}
+
+a:hover {
+  background-color: aqua;
+}
+
+
+
+
+.five {
+  background-color: #161f32;
+  padding: 10px;
+}
+
+.leftFive {
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+
+  background-color: #546278;
+}
+
+.rightFive {
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+}
+
+.fiveP {
+  width: 80%;
+  text-align: left;
+  font-weight: 100;
+  font-size: 12px;
+  border-bottom: 1px solid white;
+}
+
+.fiveUl a{
+  background: transparent;
+}
+.fiveUl {
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+
+.View {
+  background: transparent;
+}
+
+.box h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.leftSix, .rightSix {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.box200 {
+  width: 48%;
+  height: 200px;
+  background-color:#546278;
+
+} 
+
+.bottomSix {
+padding: 10px;
+  display: flex;
+  flex-direction: column;
+color: rgba(61, 80, 111, 255);
+align-items: center;
+text-align: center;
+
+}
+
+h5 {
+  margin: 20px;
+}
+
+.Purshase {
+  background-color: #3d506f;
+}
+
+.strilka {
+  padding-bottom: 15px;
+}
+
+.artikaLogo h2 {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.seven {
+  text-align: center;
+  background-color: #222c40;
+  width: 100%;
+ 
+}
+
+.sevenLeft {
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.boxSeven {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  
+}
+
+
+.kryg {
+
+  width: 100%;
+  height: auto;
+padding: 5px;
+
+
+}
+
+.sevenRight {
+  width: 100%;
+
+}
+
+.sevenBottom {
+  width: 100%;
+}
+
+.eight h3 {
+
+
+   font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.mystory {
+padding: 10px;
+  text-align: left;
+}
+
+.mystory p {
+  text-align: left;
+  font-weight: 100;
+}
+
+
+.eight {
+  padding: 10px;}
+
+.eightTop {
+  width: 100%;
+color: rgba(61, 80, 111, 255);;
+}
+
+.eight p, .eight h3 {
+  color: rgba(61, 80, 111, 255);
+}
+
+.eight h2, .eight h3 {
+  text-align: center;
+}
+
+.skill {
+  background-color: #3d506f;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+.eightRight {
+  padding: 30px;
+  width: 100%;
+}
+
+.eightLeft {
+  padding: 30px;
+}
+
+.jawa {
+  width: 75%;
+}
+
+.design {
+  width: 85%;
+}
+
+.Photography {
+  width: 75%;
+}
+
+.nineLeft { 
+  width: 100%;
+  display: flex;
+}
+
+.nineRight { 
+  width: 100%;
+  
+  
+  display: flex;
+}
+
+.boxnine {
+  width: 50%;
+  padding: 15px;
+
+}
+
+.nine {
+
+  background-color: #222c40;
+}
+
+
+.ten h2, .ten h3, .ten p {
+  color: rgba(61, 80, 111, 255);
+}
+
+
+.elevenLeft, .elevenRight, .elevenCenter, .elevenBottom {
+
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.box1{
+  width: 50%;
+  background-color: #546278;
+
+}
+
+.box2 {
+  width: 50%;
+  background-color: #161f32;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  font-weight: 300;
+}
+
+.box2 p {
+  text-align: left;
+}
+
+.elevenCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box3 {
+
+  width: 100%;
+  height: 230px;
+  background-color: #161f32;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.box23 {
+  width: 49%;
+  background-color: #161f32;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+.box23 p {
+  text-align: left;
+}
+
+
+
+
+.elevenBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.box4{
+  width: 100%;
+  height: 230px;
+  background-color: #546278;
+
+}
+
+.box5 {
+  width: 100%;
+  background-color: #161f32;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  font-weight: 300;
+}
+
+.twelw {
+
+
+  padding: 10px;
+
+  
+}
+
+.twelw p, .twelw h2 {
+
+  color: rgba(61, 80, 111, 255);
+}
+
+input { 
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  background-color: #3d506f;
+  color: white;
+  margin: 0 10px;
+
+ 
+}
+
+input [type="submit"] {
+  height: 30px;
+  width: 60px;
+  background-color:#3d506f;
+  color: #eee;
+  text-align: center;
+  padding: 0 10px;
+
+
+}
+
+.thertin {
+  background-color: #161f32;
+}
+
+.left13, .right13 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.niz13 {
+ padding: 20px;
+}
+
+
+.top13 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+
+.fourtin p, .fourtin h2, .fourtin h3 {
+ color: rgba(61, 80, 111, 255);
+}
+
+
+
+.center15 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.top15 {
+  padding: 20px;
+}
+.fivetin {
+  background-color: #161f32;
+  color: white;
+  text-align: center;
+}
+
+.adres {
+  padding: 5px;
+  width: 32%;
+  height: 200px;
+  display: flex;
+
+flex-direction: column;
+align-items: center;
+color: white;
+font-size: 12px;
+font-weight: 100;
+
+
+}
+
+.adresa {
+  margin-bottom: 10px;
+}
+
+.bottom15 {
+width: 100%;
+padding: 10px 30px;
+
+}
+
+
+
+form, input {
+  font-size: 10px;
+}
+
+.input15 { 
+  display: inline-block;
+  width: 29%;
+  height: 30px;
+  margin: 10px 2px;
+  line-height: 30px;
+  padding: 0;
+  text-indent: 6px;
+
+  background: transparent;
+  border: 1px solid white;
+}
+
+.subm {
+  height: 30px;
+  width: 100px;
+  margin: 10px auto;
+  padding: 0 10px;
+  background: transparent;
+  color: #eee;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid white;
+  width: 87%;
+  text-indent: 6px;
+
+}
+
+.artikaLogo p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.fot {
+  width: 100%;
+}
+ 
+
+.sixCenter, .sevenCenter, .eightCenter, .nineCenter, .elevenTop
+{
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+
+  section {
+
+    max-width: 960px;
+
+    
+  }
+
+ 
+
+  .leftTwo, .rightTwo, .leftSix, .rightSix, .sevenLeft, .sevenRight, .eightRight, .eightLeft, .nineLeft, .nineRight,
+  .left13, .right13  {
+    width: 50%;
+  }
+.twoCenter, .fourCenter {
+  display: flex;
+}
+
+
+.leftFive, .rightFive {
+  width: 50%;
+}
+
+
+.fiveCenter, .sixCenter, .sevenCenter, .eightCenter, .nineCenter, .elevenTop, .fot, .niz13 {
+  display: flex;
+}
+
+.elevenCenter {
+  width: 68%;
+}
+
+.elevenBottom {
+  width: 30%;
+}
+.fot {
+  justify-content: space-between;
+}
+
+.fot, .top {
+  justify-content: space-between;
+width: 100%;
+ display: flex;
+}
+
+.elevenLeft, .elevenRight {
+  width: 49%;
+} 
+
+.forma {
+ 
+  padding: 10px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.knopki {
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 1220px) {
+
+  section {
+
+    max-width: 1440px;
+
+    
+  }
+
+ 
+
+  .leftTwo, .rightTwo, .leftSix, .rightSix, .sevenLeft, .sevenRight, .eightRight, .eightLeft, .nineLeft, .nineRight,
+  .elevenLeft, .elevenRight, .left13, .right13  {
+    width: 50%;
+  }
+.twoCenter, .fourCenter {
+  display: flex;
+}
+
+
+.leftFive, .rightFive {
+  width: 50%;
+}
+
+
+.fiveCenter, .sixCenter, .sevenCenter, .eightCenter, .nineCenter, .elevenTop, .fot, .niz13 {
+  display: flex;
+}
+
+.elevenCenter {
+  width: 68%;
+}
+
+.elevenBottom {
+  width: 30%;
+}
+.fot {
+  justify-content: space-between;
+}
+
+.fot, .top {
+  justify-content: space-between;
+width: 100%;
+ display: flex;
+}
+
+.elevenLeft, .elevenRight {
+  width: 49%;
+} 
+
+.forma {
+ 
+  padding: 10px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+.knopki {
+  width: 100%;
+}
+
+}
