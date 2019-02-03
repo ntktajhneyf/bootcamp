@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1 solid green;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+}
+
+.blockLeft {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockCenter {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(172, 12, 137)
+}
+.blockRight {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(39, 200, 14)
+}
+
+.blockSmall {
+  width: 50px;
+  height: 200px;
+  background-color: rgb(30, 6, 90)
+}
