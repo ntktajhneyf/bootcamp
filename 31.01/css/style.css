@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+
+
+
+.one {
+
+
+  max-width: 480px;
+ 
+  
+
+}
+
+.wrapOne {
+  max-width: 480px;
+
+  position: relative;
+  background-image: url(../img/back.png);
+  background-size: cover;
+  background-position: center center;
+  line-height: 400px;
+}
+
+.header {
+  max-width: 480px;
+
+  padding: 5px 30px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+
+
+.conteiner {
+  max-width: 480px;
+  padding: 80px 50px;
+  height: 400px;
+}
+h2 {margin-bottom: 20px;
+
+
+}
+p {
+  margin-bottom: 20px;
+
+}
+
+.znachki {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.conteiner2 {
+  max-width: 480px;
+  background-image: linear-gradient(to right, #490ae744, #25043b7b), url(../img/back2.png);
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgThree {
+  padding: 30px;
+  max-width: 70%;
+}
+.four {
+  max-width: 480px;
+}
+
+
+.wrapFour {
+
+  max-width: 480px;
+  background-image: url(../img/tri.png);
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.play {
+  top: 150px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+
+.wrapFive {
+max-width: 480px;
+background-color:#f0f0f0;
+height: 400px;
+padding: 60px;
+
+}
+
+.wrapSix {
+  max-width: 480px;
+padding: 50px;
+}
+
+.blockLeft {
+  width: 100%;
+
+text-align: left;}
+
+.blockRight {
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.wrapSeven {
+    max-width: 480px;
+  
+}
+
+.conteinerLeft {
+  margin: auto;
+  padding: 10px;
+  max-width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgSeven {
+  width: 33%;
+  height: 250px;;
+}
+
+.conteinerRight {
+  margin: auto;
+  padding: 10px;
+  max-width: 480px;
+  display: flex;
+  flex-wrap: wrap;}
+
+
+  .footer
+ {
+   margin: auto;
+   max-width: 100px;
+ }
+
+
+ .insta {
+   display: none;
+ }
+
+
+ @media (min-width: 768px) {
+
+  .one {
+   max-width: 968px;
+  }
+
+  .wrapOne {
+   max-width: 968px;
+
+    
+  }
+  .header {
+   max-width: 968px;
+
+  }
+
+
+  h1 {
+    font-size: 170px;
+  }
+  
+  .two {
+    max-width: 968px;
+  }
+
+  .wrapTwo{
+    margin: auto;
+    max-width: 968px;
+    display: flex;
+
+  }
+
+  .conteiner {
+   width: 50%;
+
+  }
+  .conteiner2 {
+   width: 50%;
+   
+  }
+
+.four {
+  max-width: 968px;
+  display: flex;
+  
+}
+.wrapFour {
+width: 50%;
+}
+
+.wrapFive {
+  width: 50%;
+}
+
+
+ .wrapSix {
+  max-width: 968px;
+  display: flex;
+}
+
+.blockLeft {
+  width:  50%
+}
+
+.blockRight {
+  width: 50%;
+}
+
+
+.wrapSeven {
+  max-width: 968px;
+  display: flex;
+  position: relative;
+}
+.conteinerLeft, .conteinerRight {
+  width: 50%;
+} 
+
+.insta {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+   }
+   
+
+   @media (min-width: 1200px) {
+
+    .one {
+      max-width: 1440px;
+     }
+   
+     .wrapOne {
+      max-width: 1440px;
+   
+       
+     }
+     .header {
+      max-width: 1440px;
+   
+     }
+   h1 {
+      font-size: 250px;
+    }
+    
+  
+    .two{
+      max-width: 1440px;
+  
+    }
+
+    .wrapTwo { 
+      max-width: 1440px;
+      display: flex;
+  
+      
+    }
+  
+    .conteiner {
+      max-width: 50%;
+    }
+    .conteiner2 {
+      max-width: 50%;
+    }
+  
+  .four {
+    max-width: 1440px;
+    display: flex;
+    
+  }
+  .wrapFour {
+    max-width:  50%
+  }
+  
+  .wrapFive {
+    max-width:  50%;
+  }
+  
+  
+   .wrapSix {
+    max-width: 1440px;
+    display: flex;
+  }
+  
+  .blockLeft {
+    max-width:  50%
+  }
+  
+  .blockRight {
+    max-width:  50%;
+  }
+  
+
+  .seven {
+    max-width: 1440px;
+  }
+  
+  .wrapSeven {
+    max-width: 1440px;
+    display: flex;
+    position: relative;
+  }
+  .conteinerLeft, .conteinerRight {
+  max-width: 50%;
+  } 
+  
+  .insta {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  .footer img {
+    height: 30px;
+      }
+
+      .footer {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+      }
+  
+  
+  
+     }
