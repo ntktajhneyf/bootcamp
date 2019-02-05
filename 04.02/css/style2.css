@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: sans-serif;
+  outline: 1 solid green;
+}
+
+
+section {
+  width: 100%;;
+}
+
+.wrapper {
+
+width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.block {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 20px;
+border-bottom: 10px solid white;
+}
+
+
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 15px 0;
+}
+
+.one {
+  color: white;
+  background-color: #42bf7c;
+}
+
+.two {
+
+  color: rgba(118, 114, 114, 255);
+  padding: 15px;
+
+
+
+}
+h4 {
+  margin-bottom: 15px;
+}
+
+.strilku {
+  margin: auto;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.three {
+  background-color: #42bf7c;
+padding: 70px;
+color: white;
+}
+
+input {
+  position: relative;
+  width: 200px;
+  line-height: 30px;
+  color:  #42bf7c;
+  padding-left: 10px;
+
+
+}
+input::placeholder {
+  color:   #42bf7c;
+
+}
+
+form {
+  position: relative;
+  margin: auto;
+  width: 200px;
+
+}
+
+.mail {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.four p {
+font-family: ﻿OpenSans-Light, ﻿OpenSans-Semibold, ﻿OpenSans, ﻿MyriadPro-Regular, ﻿AdobeInvisFont;
+font-size: 12pt;
+color: rgba(118, 114, 114, 255);
+text-align: center;
+margin-top: 20px;
+}
+
+.four {
+  padding: 70px;
+}
+
+@media (min-width: 768px) {
+  max-width: 960px;
+
+
+.wrapper {
+  display: flex;
+}
+
+.block {
+  width: 49%;
+  border: none;
+  margin: 0;
+}
+
+.bloki {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+}
+
+@media (min-width: 1200px) {
+  max-width: 1440px;
+
+
+.wrapper {
+  display: flex;
+}
+
+.block {
+  width: 33%;
+  border: none;
+  margin: 0;
+}
+
+.bloki {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.two {
+  padding: 70px 200px;
+}
+}
+

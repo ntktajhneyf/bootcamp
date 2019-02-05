@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: 1px solid green;
+
+  font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 100%;
+
+}
+
+.one {
+  background-image: linear-gradient(to right, #33333532, #3333358c), url(../imggolden/fon.png);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+
+
+}
+
+.header {
+  width: 100%;
+  padding: 10px 30px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+
+
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin:5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+
+}
+
+.center {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.tell {
+  background-color: gold;
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  
+}
+
+h2, h1{
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.topTwo, .topThree, .topFour {
+  padding: 30px 50px;
+
+  font-family: Roboto, sans-serif;
+color: rgba(34, 34, 34, 255);
+text-align: center;
+}
+
+.block {
+  overflow: hidden;
+  width: 80%;
+  padding: 20px;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+}
+h3 {
+  margin: 20px;
+}
+
+.three {
+  background-color: #f7f7f7;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.boxText {
+  width: 60%;
+}
+.boxFoto {
+  margin: auto;
+  padding: 15px;
+}
+.radius {
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: 0px 0px 16px 8px rgba(128,128,128,1);
+}
+
+.first {
+  text-align: right;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.second {
+  text-align: left;
+  font-size: 12px;
+  padding: 3px;
+}
+.box h3 {
+  margin: 0;
+}
+
+  .kolo {
+    width: 100px;
+    height: 100px;
+    background-color:#fed136;
+    color: wheat;
+    font-size: 12px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px 8px rgba(128,128,128,1);
+    display: flex;
+    align-items: center;
+
+  }
+
+  .kolo h3 {
+    margin: 0;
+    color:white;
+    text-align: center;
+
+  }
+
+  .five {
+    background-color: #f9f9f9;
+    
+  }
+
+  .kolo2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #111111;
+    margin: auto;
+  }
+.five h3, .five p
+
+{
+margin: 5px;
+
+} 
+
+
+.kryg {
+    border-radius: 50%;
+    border: 2px solid #111111;
+  }
+
+  .fiveBottom {
+    width: 100%;
+    padding: 30px;
+  }
+
+
+  @media (min-width: 760px) {
+
+.header {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.menu {
+  width: 50%;
+}
+
+.bottomTwo, .bottomTree, .bottomFour{
+  display: flex;
+}
+
+.block {
+  width: 50%;
+}
+
+.bottomTree {
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 60%;
+  padding: 0;
+}
+.bottomFour {
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.prave {
+  align-self: flex-end;
+}
+
+
+  }

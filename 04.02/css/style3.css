@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+ 
+  outline: 1px solid green;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#green, #red, #blue, #aqva {
+
+  height: 100vh;
+  width: 100%;
+
+
+
+
+}
+
+#green {
+  background-color: green;
+ 
+
+}
+
+#red {
+  background-color: red;
+
+}
+#blue{
+  background-color: blue;
+}
+
+.conteinerLeft {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.conteinerRight {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: none;
+}
+
+.knopka {
+  display: none;
+}
+
+#click:checked ~ .conteinerRight {
+  display: block;
+}
