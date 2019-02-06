@@ -136,27 +136,14 @@ width: 80%;
   width: 380px;
   height: ;
   position: relative;
+  overflow: hidden;
 }
 .blocki {
   display: flex;
   justify-content: space-between;
 }
 
-.boyFon {
-  width: 380px;
-  height: 470px;
-position: absolute;
-top: -10px;
-left: -10px;
-opacity: 0.8;
-display: none;
-}
-.boy:hover .boyFon {
 
-  display: flex;
-
-  
-}
 
 .ikonki {
 display: flex;
@@ -185,4 +172,28 @@ position: absolute;
 
 .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
   background-color: #95e1d3;
+}
+
+
+.box:hover .boyFon {
+
+  display: block;
+  transform: translate(0);
+
+transition: all 3s ease;
+  
+}
+
+
+
+
+.boyFon {
+  width: 380px;
+  height: 475px;
+position: absolute;
+transform: translateY(-490px);
+opacity: 0.8;
+display: flex;
+top: 0;
+
 }
