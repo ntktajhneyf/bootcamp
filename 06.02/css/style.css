@@ -1,0 +1,302 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: 1 solid green;
+
+}
+
+
+#one {
+  background-color: #b3b3b3;
+
+}
+
+
+.logoName {
+  text-align: left;
+}
+
+.firstClass {
+  background-color: aqua;
+  height: 100px;
+
+}
+
+.secondClass {
+  background-color: rgb(221, 19, 184);
+  height: 100px;
+  
+}
+
+.row {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.oneh4::after {
+  content: "";
+  background-color: black;
+  width: 100px;
+  height: 2px;
+  display: block;
+  margin: 20px auto;
+
+
+}
+
+.oneh4
+{
+  font-size: 14px;
+}
+
+.buttonOne {
+  margin: 30px auto;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  color: white;
+
+}
+
+.oneCenter {
+  padding: 100px;
+}
+
+#two {
+  background-color: #000000;
+}
+
+.tiloTwo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 30px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.buttonTwo {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.leftThree {
+  text-align: left;
+  padding: 30px 0;
+}
+
+.leftRight {
+  background-color: #b3b3b3;
+  height: 450px;
+  align-items: center;
+  display: flex;  
+
+}
+
+.btn {
+  margin: auto;
+  width: 150px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+.threeH5, .fiveH5, .sevenH5 {
+  color: #989898;
+  font-size: 12px;
+}
+
+.threeH5::after {
+  content: "";
+  background-color: #d1cdcf;
+    width: 100px;
+  height: 2px;
+  display: block;
+  margin: 20px 0;
+}
+
+.threeCont {
+  padding: 0;
+  align-items: flex-start;
+}
+
+#four {
+  background-color: #242424;
+  color: white;
+  padding: 120px 0;
+}
+
+
+.fiveH5::after {
+  content: "";
+  background-color: #d1cdcf;
+  width: 100px;
+  height: 2px;
+  display: block;
+  margin: 20px auto;
+}
+
+p {
+  color: rgba(119, 119, 119, 255);
+
+}
+
+.bottomFive {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+#five, #eight, #six {
+  padding: 20px 0;
+}
+
+.box {
+  width: 32%;
+  height:300px;
+  background-color: #bdb8ba;
+  margin-bottom: 20px;
+}
+
+.boxCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#seven {
+  background-color: #242424;
+  color: white;
+  padding: 50px 0;
+  font-size: 14px;
+
+}
+
+ .sevenH5 {
+   margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.boxiEightAll {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.boxBotton {
+  background-color: #443e41;
+  padding: 10px 0;
+  height: 30px;
+  font-size: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.box8 {
+  display: flex;
+  align-items: flex-end;
+  width: 23%;
+  height: 150px;
+  background-color: #bdb8ba;
+}
+
+.text8 {
+  width: 32%;
+  text-align: left;
+}
+
+.textEight {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nine, #eleven {
+  text-align: left;
+  background-color: #242424;
+  color: white;
+  padding: 60px 0;
+  text-align: left;
+}
+
+.custom-file-label {
+  text-align: left;
+  color: white;
+  background: transparent!important;
+}
+
+.centerNine {
+  text-align: left;
+}
+.boxTen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topTen {
+  margin-bottom: 30px;
+}
+
+.actionForm {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-items: end;
+
+}
+
+.formLeft, .formRight {
+  width: 50%;
+}
+
+input {
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 7px;
+}
+
+.form-subject {
+  margin-bottom: 10px;
+
+}
+
+.form-texteria {
+  width: 95%;
+}
+
+
+
+.btn10 {
+  right: 50px;
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.knopka {
+  display: flex;
+  width: 98%;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.centerEleven {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#eleven img {
+  margin-bottom: 20px;
+  
+}
