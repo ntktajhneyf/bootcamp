@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+  outline: 1px solid green;
+}
+
+section {
+  max-width: 768px;
+
+}
+
+.URLA {
+  color: white;
+  font-weight: 600;
+
+  margin: auto;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  display: none;
+
+}
+
+
+.one {
+  background-image: url(./img/fon.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.logIn p {
+  color: white;
+  font-weight: 600;
+}
+
+.logIn {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.headBut {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+
+.header {
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.center {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.centerH2 {
+
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 35px;
+
+
+
+}
+
+.centerH3 {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.centerH4 {
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text {
+  text-align: center;
+}
+
+.buttom {
+
+  width: 100%;
+  margin: auto;
+  width: 300px;
+  border: unset;
+
+
+}
+
+.centerBut {
+  margin: auto;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.two {
+  padding: 50px 0;
+}
+
+.twoH3 {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bloki {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 240px;
+  height: 330px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.foto {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.icon {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 50%;
+  z-index: 9;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.twoH4 {
+  margin-bottom: 20px;
+}
+
+
+.order2 {
+  order: 1;
+}
+
+.order4 {
+  order: 1;
+}
+
+
+.nizBut {
+  margin: auto;
+  background: transparent;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: red;
+  font-weight: 600;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.fotter {
+  width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 760px) {
+
+
+  section {
+    max-width: 968px;
+  
+  }
+  
+
+  .URLA {
+    display: block;
+
+  }
+
+  .bloki {
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;  }
+
+  .box {
+  }
+
+}
+
+
+@media (min-width: 1200px)
+{
+
+  section {
+    max-width: 100%;
+  
+  }
+  
+
+  .bloki {
+    width: 100%;
+    flex-wrap: unset;
+    justify-content: space-around;
+  }
+  
+}
