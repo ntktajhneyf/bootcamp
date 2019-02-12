@@ -1,0 +1,222 @@
+* {
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+/* outline: 1px solid green; */
+
+}
+
+section {
+  max-width: 768px;
+
+}
+
+.one {
+  background-image: url(../img/fon.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.header {
+  color: white;
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-bottom: 110px;
+  justify-content: center;
+  align-items: center;
+}
+
+.URl {
+  display: none;
+}
+
+.topButton {
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 40px;
+  padding: 5px 15px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.center {
+  color: white;
+  text-align: center;
+
+}
+
+
+.centerH3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.centerH2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.centerH5 {
+  font-weight: 200;
+  font-size: 16px;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+.buttonCenter {
+  background-color: #ff4e50;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 60px;
+  margin-bottom: 100px;
+
+  
+}
+
+.two {
+  padding: 60px 0;
+  text-align: center;
+}
+
+
+.h3Two{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.foto {
+  position: relative;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+.box {
+  margin: auto;
+  width: 220px;
+  margin-bottom: 20px;
+}
+.fotka {
+  border-radius: 50%;
+
+}
+
+.kolo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 14pt;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+.profile {
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+.nizButton {
+  background: transparent;
+  border: 3px solid rgba(255, 78, 80, 255);
+  color: rgba(255, 78, 80, 255);
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 70px;
+  margin-bottom: 100px;
+  margin: auto;
+}
+
+@media (min-width: 768px)
+{
+  section {
+    max-width: 968px;
+  
+  }
+
+
+.URl{
+  display: block;
+}
+
+
+.centerH3 {
+  display: none;
+}
+
+.centerH2 {
+  font-size: 50pt;
+}
+
+.header {
+ 
+  justify-content: space-between;
+}
+
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto 20px;
+
+}
+
+.order1 {
+  order: 1;
+}
+.order2 {
+  order: 3;
+}
+
+.order3 {
+  order: 2;
+
+}
+
+.order4 {
+  order: 4;
+
+}
+
+
+}
+
+@media (min-width: 1220px){
+
+section {max-width: 1440px;
+}
+
+.box {
+  width: 24%;
+}
+
+
+.block {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+}
