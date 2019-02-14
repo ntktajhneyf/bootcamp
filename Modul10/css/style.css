@@ -269,7 +269,6 @@ margin: auto;
 
 position: absolute;
 transform: translateY(-700px);
-opacity: 0.8;
 display: flex;
 top: 0;
 
@@ -360,6 +359,8 @@ span {
 
 .fotka {
   width: 100%;
+  opacity: 0.8;
+
 }
 
 .footerThree {
