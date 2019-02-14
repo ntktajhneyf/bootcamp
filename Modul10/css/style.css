@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: 1px solid green;
+
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif; */
+}
+
+/* 
+section {
+  max-width: 768px;
+
+} */
+
+.oneSection {
+  background: linear-gradient(to top, #bb353578, #e0ac5d8b), url(../img/Layer\ 15@1X.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+
+}
+
+li {
+  list-style: none;
+  margin-right: 10px;
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+
+}
+
+a:hover {
+  color: rgba(252, 227, 138, 255);
+  border-bottom: 2px solid rgba(252, 227, 138, 255);
+  padding-bottom: 5px;
+
+}
+
+.header {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+
+}
+
+.menu {
+  width: 70%;
+
+}
+
+.centerSectionOne {
+  color: white;
+  text-align: center;
+
+}
+
+.logo {
+  display: none;
+}
+
+.welcome {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 40px;
+
+}
+
+.creative {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+
+}
+
+.learn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 15px;
+  margin-bottom: 50px;
+}
+
+
+.box {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+
+.h3headerTwo {
+    font-family: 'Kaushan Script', cursive;
+    font-size:25px;
+    margin-bottom: 20px;
+
+  
+  }
+
+  .h2headerTwo {
+    font-family: 'Montserrat', sans-serif;
+    font-size:35px;
+    font-weight: 800;
+text-transform: uppercase;  }
+
+.h2headerTwo::after {
+
+content: "";
+display: block;
+width: 50px;
+height: 3px;
+background-color: #f38181;
+margin: 20px auto;
+
+
+}
+
+
+.twoSection, .threeSection {
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+
+
+.boxBoy {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+
+  /* width: 380px;  */
+  position: relative;
+  overflow: hidden;
+}
+
+.icon {
+  width: 10%;
+
+}
+
+.textBox {
+  width: 90%;
+  padding: 0 20px;
+}
+
+.h4Box{
+  margin-bottom: 10px;
+   font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+
+
+
+}
+
+.boxP {
+  font-family: 'Roboto', sans-serif;
+} 
+
+
+.headerThreeP {
+  width: 80%;
+font-family: 'Roboto', sans-serif;
+font-size: 10pt;
+color: rgba(153, 153, 153, 255);
+text-align: center;
+margin: 0 auto 20px;
+}
+
+.boxBoyP {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+color: rgba(153, 153, 153, 255);
+text-align: center;
+font-style: italic;
+}
+/* 
+.boy {
+  width: 60%;
+  margin: auto;
+}
+
+ */
+
+
+
+
+
+
+
+
+.ikonki {
+display: flex;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+
+  width: 50px;
+  height: 50px;
+  background-color: #fce38a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #e19c7b;
+  
+
+}
+
+
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
+  background-color: #95e1d3;
+}
+
+
+.boxBoy:hover .boyFon {
+
+  display: block;
+  transform: translate(0);
+
+transition: all 3s ease;
+  
+}
+
+
+
+
+
+.boyFon {
+
+  width: 100%;
+height: 100%;
+margin: auto;
+
+  /* width: 380px;
+  height: 475px; */
+
+
+
+position: absolute;
+transform: translateY(-700px);
+opacity: 0.8;
+display: flex;
+top: 0;
+
+}
+
+
+
+span {
+  color: #f48b8b;
+
+}
+
+.footerR {
+  font-size: 10px;
+}
+
+
+.knopka {
+  color: white;
+  background-color: #95e1d3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  border: none;
+  padding: 0 20px;
+  height: 20px;
+
+}
+.formText {
+  height: 20px;
+  font-size: 12px;
+}
+
+
+
+
+
+@media (min-width: 768px)
+
+ {
+  
+
+.wrapper {
+  width: 70%;
+}
+
+.bloki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.box {
+  width: 30%;
+}
+
+.centerThreeBoy {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.boxBoy {
+  width: 30%;
+  margin: 0;
+}
+
+
+
+.fotka {
+  width: 100%;
+}
+
+.footerThree {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: block;
+}
+
+ 
+}
