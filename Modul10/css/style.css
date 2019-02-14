@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 
   /* font-family: 'Montserrat', sans-serif;
   font-family: 'Kaushan Script', cursive;
@@ -15,14 +15,14 @@ section {
   max-width: 768px;
 
 } */
-
+/* 
 .oneSection {
   background: linear-gradient(to top, #bb353578, #e0ac5d8b), url(../img/Layer\ 15@1X.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 
-}
+} */
 
 .wrapper {
   width: 80%;
@@ -307,6 +307,24 @@ span {
 
 
 
+
+
+.oneSection{
+  background: linear-gradient(to top, #bb353578, #e0ac5d8b), url(../img/Layer\ 15@1X.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .oneSection{
+    background: linear-gradient(to top, #bb353578, #e0ac5d8b), url(../img/Layer\ 15@2X.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+
+
+
 @media (min-width: 768px)
 
  {
@@ -354,4 +372,27 @@ span {
 }
 
  
+}
+
+@media (min-width: 1220px) {
+
+
+  .welcome {
+
+    font-size: 60px;
+  width: 40%;
+  margin: 30px auto;
+  }
+  
+  .creative {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 400;
+  
+  }
+  
+  .centerSectionOne {
+    margin-bottom: 20px;
+  }
+
 }
