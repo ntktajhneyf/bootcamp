@@ -28,27 +28,27 @@
  
 
 
-// const adminLogin = 'admin';
-// const adminPassword = 'm4ngo1zh4ackz0r';
-// const censel = 'Отменено пользователем!';
-// const log = prompt('Login:');
+const adminLogin = 'admin';
+const adminPassword = 'm4ngo1zh4ackz0r';
+const censel = 'Отменено пользователем!';
+const log = prompt('Login:');
 
-// if (log === null) {
-//   alert(censel);
-// } else if (log === adminLogin) {
-//   const pass = prompt('Password');
-//   if (pass === null) {
+if (log === null) {
+  alert(censel);
+} else if (log === adminLogin) {
+  const pass = prompt('Password');
+  if (pass === null) {
 
-//     alert(censel);
+    alert(censel);
 
-//   } else if (pass === adminPassword) {
-//     const welcome = alert('Добро пожаловать!');
-//   } else {
-//     const alarm = alert('Доступ запрещен, неверный пароль!');
-//   }
-// } else {
-//   const wrong = alert('Доступ запрещен, неверный логин!');
-// }
+  } else if (pass === adminPassword) {
+    const welcome = alert('Добро пожаловать!');
+  } else {
+    const alarm = alert('Доступ запрещен, неверный пароль!');
+  }
+} else {
+  const wrong = alert('Доступ запрещен, неверный логин!');
+}
 
 
 
