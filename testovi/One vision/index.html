@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+
+      *{
+        margin: 0;
+      }
+
+    .wrapper {
+      min-width: 768px;
+      max-width: 1024px;
+      text-align: center;
+      margin: auto;
+      
+    }
+    .head {
+      display: flex;
+    }
+
+    .headLeft, .headRight{
+      width: 150px;
+      padding: 50px 0;
+      outline: 1px solid black;
+
+    }
+    .headRight {
+      display: none;
+    }
+
+    .headCenter {
+      width: 100%;
+      padding: 50px 0;
+      outline: 1px solid black;
+
+    }
+    .done{
+      display: flex;
+    }
+
+    .leftDone, .rightDone {
+      width: 50%;
+      outline: 1px solid black;
+
+    }
+    .rightDone {
+      padding: 50px 0;
+      
+    }
+    .leftDoneUp_done {
+      padding: 50px 0;
+      outline: 1px solid black;
+
+    }
+    .leftDoneUp_left{
+      width: 60%;
+      padding: 30px 0;
+      outline: 1px solid black;
+
+    }
+
+    .leftDoneUp_right{
+      width: 40%;
+      padding: 30px 0;
+      outline: 1px solid black;
+
+    }
+    .conteiner {
+      display: flex;
+    }
+    
+
+    @media (max-width: 768px)
+
+{
+  .headRight {
+      display: inline-block;
+    }
+
+    .head, .done, .conteiner  {
+      flex-direction: column;
+    }
+
+    .headLeft, .headRight, .leftDone, .rightDone, .leftDoneUp_left, .leftDoneUp_right {
+      width: 100%;
+    }
+
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="head">
+      <div class="headLeft">W - 150</div>
+      <div class="headCenter">W - Dynamic according to screen size</div>
+      <div class="headRight"><p>W - 150</p><p>Tablet: hide</p><p>Mobile:</p><p>new line</p>
+      </div>
+    </div>
+
+    <div class="done">
+      <div class="leftDone">
+        <div class="leftDoneUp">
+
+          <div class="conteiner">
+            <div class="leftDoneUp_left">W - 60%</div>
+            <div class="leftDoneUp_right">W - 40%</div>
+          </div>
+
+          <div class="leftDoneUp_done">W - 50%</div>
+        </div>
+      </div>
+      <div class="rightDone">W - 50%</div>
+
+    </div>
+
+  </div>
+</body>
+</html>
